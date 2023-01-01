@@ -197,4 +197,21 @@ a {
         border-radius: 5px;
         font-weight: 600;
     }
+
+    .container .idiomas {
+        display: flex;
+        justify-content:space-evenly;
+        padding: 15px;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .container .idiomas .container__idiomas .list_idiomas li {
+        list-style: none;
+    }
+
+    .container .idiomas .container__idiomas .list_idiomas a {
+        color:gray;
+    }
 }
