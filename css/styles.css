@@ -46,6 +46,10 @@ a {
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+    .container__form .form hr{
+        display: none;
+    }
+
     .form {
         display: flex;
         flex-direction: column;
@@ -53,7 +57,7 @@ a {
         padding: 20px;
         text-align: center;
         border-radius: 7px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         background-color: white;
     }
 
@@ -77,11 +81,13 @@ a {
         font-size: 20px;
         background-color: #1877f2;
         border-color: #1877f2;
+        border-style: solid;
         border-radius: 5px;
         color: white;
         margin: auto;
         width: 100%;
         cursor: pointer;
+        font-weight: 600;
     }
 
     .form .iniciar:hover {
@@ -110,8 +116,10 @@ a {
         font-size: 17px;
         background-color: #42b72a;
         border-color: #42b72a;
+        border-style: solid;
         border-radius: 5px;
         color: rgb(255, 255, 255);
+        font-weight: 600;
     }
 
     .form .crearCuenta:hover {
@@ -120,8 +128,29 @@ a {
         cursor:pointer;
     }
 
-    .crear_page_famous {
-        margin-top: 200px;
+    .idiomas {
+        margin: auto;
+        width: 70%;
+        padding: 20px;
+    }
+
+    .idiomas .container__idiomas {
+    
+    }
+
+    .idiomas .container__idiomas .list_idiomas {
+        display: flex;
+        text-align: center;
+        line-height: 50px;
+        gap: 30px;
+    }
+
+    .idiomas .container__idiomas .list_idiomas li {
+        list-style: none;
+    }
+
+    .idiomas .container__idiomas .list_idiomas a {
+        color: grey;
     }
 }
 
@@ -185,6 +214,7 @@ a {
         border-radius: 5px;
         font-weight: 600;
     }
+
     .container__form .form .crearCuenta {
         margin: auto;
         width: 45%;
@@ -198,7 +228,7 @@ a {
         font-weight: 600;
     }
 
-    .container .idiomas {
+    .idiomas {
         display: flex;
         justify-content:space-evenly;
         padding: 15px;
@@ -207,11 +237,11 @@ a {
         font-size: 14px;
     }
 
-    .container .idiomas .container__idiomas .list_idiomas li {
+    .idiomas .container__idiomas .list_idiomas li {
         list-style: none;
     }
 
-    .container .idiomas .container__idiomas .list_idiomas a {
+    .idiomas .container__idiomas .list_idiomas a {
         color:gray;
     }
 }
