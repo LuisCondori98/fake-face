@@ -134,10 +134,6 @@ a {
         padding: 20px;
     }
 
-    .idiomas .container__idiomas {
-    
-    }
-
     .idiomas .container__idiomas .list_idiomas {
         display: flex;
         text-align: center;
@@ -155,9 +151,6 @@ a {
 }
 
 @media (min-width: 1px) and (max-width: 480px) {
-    .container {
-
-    }
 
     .container .inicio__sesion .text_pg h1{
         color:#1877f2;
