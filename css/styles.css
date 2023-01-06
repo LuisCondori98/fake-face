@@ -183,6 +183,7 @@ a {
     .container__form .form {
         display: flex;
         flex-direction: column;
+        text-align: center;
         gap: 6.5px;
     }
 
